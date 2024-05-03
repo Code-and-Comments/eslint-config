@@ -1,0 +1,35 @@
+{
+  "name": "@code-and-comments/eslint-config",
+  "version": "1.0.0",
+  "description": "Default eslint configuration for projects of Code & Comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-and-Comments/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "angular",
+    "typescript"
+  ],
+  "author": "Simon Deutsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Code-and-Comments/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Code-and-Comments/eslint-config#readme",
+  "peerDependencies": {
+    "@angular-eslint/builder": "16.x",
+    "@angular-eslint/eslint-plugin": "16.x",
+    "@angular-eslint/eslint-plugin-template": "16.x",
+    "@angular-eslint/schematics": "16.x",
+    "@angular-eslint/template-parser": "16.x",
+    "@ngrx/eslint-plugin": "17.x",
+    "eslint": "^8.x",
+    "@typescript-eslint/eslint-plugin": "5.x",
+    "@typescript-eslint/parser": "5.x"
+  }
+}
