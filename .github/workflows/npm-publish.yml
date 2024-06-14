@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - name: npm publish
+      - name: NPM Publish
         run: |
           git config user.email "ci@codeandcomment.at"
           git config user.name "ci"

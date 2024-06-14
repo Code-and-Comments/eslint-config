@@ -25,6 +25,15 @@ module.exports = {
               "prefix": "app, input, cp",
               "style": "kebab-case"
             }
+          ],
+          "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+              "args": "all",
+              "vars": "all",
+              "argsIgnorePattern": "^_",
+              "varsIgnorePattern": "^_",
+            }
           ]
         }
       },
