@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/Code-and-Comments/eslint-config/issues"
   },
-  "homepage": "https://github.com/Code-and-Comments/eslint-config#readme"
+  "homepage": "https://github.com/Code-and-Comments/eslint-config#readme",
+  "peerDependencies": {
+    "@angular-eslint/eslint-plugin": "^19.1.0",
+    "@angular-eslint/template-parser": "^19.1.0",
+    "@ngrx/eslint-plugin": "^19.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0"
+  }
 }
