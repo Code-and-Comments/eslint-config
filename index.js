@@ -6,14 +6,9 @@ import angularTemplateParser from "@angular-eslint/template-parser";
 
 export default [
   {
-    files: ["**/*.ts"],
+    files: ["src/**/*.ts"],
     languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "module",
       parser: tsParser,
-      parserOptions: {
-        project: "./tsconfig.json",
-      },
     },
     plugins: {
       "@typescript-eslint": typescriptEslint,
@@ -49,17 +44,15 @@ export default [
     },
   },
   {
-    files: ["**/*.html"],
+    files: ["src/**/*.html"],
     languageOptions: {
       parser: angularTemplateParser,
     },
-    processor: angularEslint.processors["process-inline-templates"],
     plugins: {
       "@angular-eslint": angularEslint,
     },
     rules: {
       ...angularEslint.configs.recommended.rules,
-      "@angular-eslint/template/eqeqeq": ["error", { "allowNullOrUndefined": true }]
     },
   },
 ];
