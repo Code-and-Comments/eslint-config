@@ -23,7 +23,7 @@ export default [
     rules: {
       ...typescriptEslint.configs.recommended.rules,
       ...angularEslint.configs.recommended.rules,
-      ...ngrxEslint.configs.recommended.rules,
+      ...ngrxEslint.configs.all.rules,
       "object-curly-spacing": ["error", "always"],
       "object-curly-newline": ["error"],
       "operator-linebreak": ["error", "after", { "overrides": { ":": "before", "?": "before" } }],
