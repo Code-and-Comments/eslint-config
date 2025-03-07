@@ -6,17 +6,19 @@ It is based on [angular-eslint](https://github.com/angular-eslint/angular-eslint
 1. Install dependencies
 ```shell
 ng add @angular-eslint/schematics
-npm i -D @ngrx/eslint-plugin
 npm i -D @code-and-comments/eslint-config
 ```
 
 2. Setup eslint in project
 
-Create `.eslintrc.js` file in same folder as `package.json`
+Update `eslint.config.js` file with the following content:
 ```js
-module.exports = {
-  extends: ['@code-and-comments/eslint-config'],
-};
+const cnc = require("@code-and-comments/eslint-config");
+
+module.exports = [
+  ...cnc.default
+];
+
 ```
 
 ## Update eslint-config
