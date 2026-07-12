@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/Code-and-Comments/eslint-config#readme",
   "peerDependencies": {
-    "@angular-eslint/eslint-plugin": "^19.1.0",
-    "@angular-eslint/template-parser": "^19.1.0",
-    "@ngrx/eslint-plugin": "^19.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.23.0",
-    "@typescript-eslint/parser": "^8.25.0",
-    "eslint": ">= 9"
+    "@angular-eslint/eslint-plugin": "^19.8.1",
+    "@angular-eslint/template-parser": "^19.8.1",
+    "@ngrx/eslint-plugin": "^19.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.63.0",
+    "@typescript-eslint/parser": "^8.63.0",
+    "eslint": ">= 9.39.5"
   }
 }
